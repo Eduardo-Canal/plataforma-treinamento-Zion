@@ -19,9 +19,7 @@ import { AdminRoute } from './components/AdminRoute'
 const App = () => (
   <AuthProvider>
     <OrganizationProvider>
-      <BrowserRouter
-        future={{ v7_startTransition: false, v7_relativeSplatPath: false }}
-      >
+      <BrowserRouter>
         <TooltipProvider>
           <Toaster />
           <Sonner />
